@@ -8,6 +8,9 @@
 import Foundation
 import SwiftUI
 struct NounView: View {
+    @State var Madlib = Madlib
+    TextField("Enter a noun",text:$Madlip.Noun)
+                   
     var body: some View {
         NavigationLink("Go to VerbView", destination: VerbView())
     }
